@@ -11,7 +11,10 @@ public class Main {
 //        Swap2NosWithout3rdVariable.swap2NosWithout3rdVariable();
 //        PrimeNo.primeNo();
 //        Fibonacci.fibonacci();
-        HashMapPractice.hashMapPractice();
+//        DuplicateCharsInString.duplicateCharsInString();
+//        MaxSubarraySum.maxSubarraySumOrderN3();
+//        MaxSubarraySum.maxSubarraySumOrderN2();
+        MaxSubarraySum.maxSubarraySumOrderN();
 
     }
 
