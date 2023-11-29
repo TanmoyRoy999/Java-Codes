@@ -72,17 +72,16 @@ public class MaxSubarraySum {
 
         // Kanade's Algo
 
-        int[] arr = {-1, -4, 2, 5, -1, -3, 8, -5};
+        int[] arr = {-3, -4, 2, 5, -1, -3, 8, -5};
 
         Long maxSum=Long.MIN_VALUE;
         Long currentSum=0L;
-
         int startIndex=-1;
         int endIndex=-1;
 
-        for (int i=0;i< arr.length;i++){
+        for (int i=0;i<arr.length;i++){
 
-            if(currentSum==0L)
+            if (currentSum==0L)
                 startIndex=i;
 
             currentSum+=arr[i];
@@ -92,13 +91,12 @@ public class MaxSubarraySum {
                 endIndex=i;
             }
 
-            if (currentSum<0){
+            if (currentSum<0)
                 currentSum=0L;
-            }
         }
 
-        System.out.println("Max sum is: "+maxSum);
-        System.out.print("Resultant sub array is: ");
+        System.out.println("Max subarray sum is: "+maxSum);
+        System.out.print("Max subarray is: ");
 
         for (int i=startIndex;i<=endIndex;i++)
             System.out.print(arr[i]+" ");
