@@ -14,7 +14,9 @@ public class Main {
 //        DuplicateCharsInString.duplicateCharsInString();
 //        MaxSubarraySum.maxSubarraySumOrderN3();
 //        MaxSubarraySum.maxSubarraySumOrderN2();
-        MaxSubarraySum.maxSubarraySumOrderN();
+//        MaxSubarraySum.maxSubarraySumOrderN();
+
+        FirstNonRepeatingCharIndex.firstNonRepeatingCharIndex();
 
     }
 
