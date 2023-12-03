@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 
 public class DuplicateCharsInString {
 
-    public static void duplicateCharsInString() {
+    public static void duplicateCharsInStringOrderNLogN() {
 
         Scanner sc = new Scanner(System.in);
 
@@ -16,10 +16,10 @@ public class DuplicateCharsInString {
 
         Map<Character, Integer> countMap = new HashMap<>();
 
-        for (int i = 0; i < str.length(); i++) {
+        for (int i = 0; i < str.length(); i++) {            // O(n)
 
             if (countMap.containsKey(str.charAt(i))) {
-                countMap.put(str.charAt(i), countMap.get(str.charAt(i)) + 1);
+                countMap.put(str.charAt(i), countMap.get(str.charAt(i)) + 1);      // O(logn)
             } else {
                 countMap.put(str.charAt(i), 1);
             }

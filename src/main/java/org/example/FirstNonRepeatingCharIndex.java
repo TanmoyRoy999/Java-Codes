@@ -2,7 +2,7 @@ package org.example;
 
 public class FirstNonRepeatingCharIndex {
 
-    public static void firstNonRepeatingCharIndex() {
+    public static void firstNonRepeatingCharIndexOrderN2() {
 
         /**
          *  Write a function that takes in a string of lower case English alphabet letters and returns
@@ -19,12 +19,12 @@ public class FirstNonRepeatingCharIndex {
         String inputStr="aab";
         int index=-1;
 
-        for (int i=0; i<inputStr.length();i++){
+        for (int i=0; i<inputStr.length();i++){       // O(n)
 
             boolean repeatFlag=false;
             char c=inputStr.charAt(i);
 
-            for (int j=0;j<inputStr.length();j++){
+            for (int j=0;j<inputStr.length();j++){      // O(n)
 
                 if (i==j)
                     continue;
