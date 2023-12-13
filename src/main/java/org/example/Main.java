@@ -1,6 +1,6 @@
 package org.example;
 
-import java.util.*;
+import org.example.CollectionsPractice.ArrayListPractice;
 
 public class Main {
 
@@ -16,7 +16,8 @@ public class Main {
 //        MaxSubarraySum.maxSubarraySumOrderN2();
 //        MaxSubarraySum.maxSubarraySumOrderN();
 //        FirstNonRepeatingCharIndex.firstNonRepeatingCharIndexOrderN2();
-        FirstNonRepeatingCharIndex.firstNonRepeatingCharIndexOrderNLogN();
+//        FirstNonRepeatingCharIndex.firstNonRepeatingCharIndexOrderNLogN();
+        ArrayListPractice.arrayListPractice();
 
     }
 
