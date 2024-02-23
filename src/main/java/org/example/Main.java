@@ -1,6 +1,7 @@
 package org.example;
 
 import org.example.CollectionsPractice.ArrayListPractice;
+import org.example.CollectionsPractice.LinkedListPractice;
 
 public class Main {
 
@@ -17,7 +18,8 @@ public class Main {
 //        MaxSubarraySum.maxSubarraySumOrderN();
 //        FirstNonRepeatingCharIndex.firstNonRepeatingCharIndexOrderN2();
 //        FirstNonRepeatingCharIndex.firstNonRepeatingCharIndexOrderNLogN();
-        ArrayListPractice.arrayListPractice();
+//        ArrayListPractice.arrayListPractice();
+        LinkedListPractice.linkedListPractice();
 
     }
 

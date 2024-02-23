@@ -1,9 +1,6 @@
 package org.example.CollectionsPractice;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 
 public class ArrayListPractice {
 
@@ -80,7 +77,11 @@ public class ArrayListPractice {
         String[] strArray=strList.toArray(new String[strList.size()]);
         System.out.println(Arrays.toString(strArray));
 
-
+        // iterator
+        Iterator<String> iterator = strList.iterator();
+        System.out.println("Through iterator:");
+        while(iterator.hasNext())
+            System.out.println(iterator.next());
     }
 
 }
