@@ -1,7 +1,6 @@
-package org.example;
+package org.java.InterviewCodes;
 
-import org.example.CollectionsPractice.ArrayListPractice;
-import org.example.CollectionsPractice.LinkedListPractice;
+import org.java.Collections.LinkedListPractice;
 
 public class Main {
 

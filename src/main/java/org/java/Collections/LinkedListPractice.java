@@ -1,4 +1,4 @@
-package org.example.CollectionsPractice;
+package org.java.Collections;
 
 import java.util.*;
 
@@ -141,6 +141,5 @@ public class LinkedListPractice {
             System.out.println("From " + previousPlace + " to " + place);
             previousPlace = place;
         }
-
     }
 }
