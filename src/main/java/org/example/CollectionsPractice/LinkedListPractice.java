@@ -12,7 +12,8 @@ public class LinkedListPractice {
 //        getElements(deathNote);
 
 //        itineraryOrderN2();
-        itineraryOrderN();
+//        itineraryOrderN();
+        itineraryUsingIterator();
 
     }
 
@@ -125,4 +126,21 @@ public class LinkedListPractice {
 
     }
 
+    public static void itineraryUsingIterator() {
+
+        LinkedList<String> list = new LinkedList<>();
+        list.addAll(List.of("Kolkata", "Delhi", "Mumbai", "Bangalore", "Hyderabad", "Chennai"));
+        System.out.println("Places are: " + list);
+
+        String previousPlace = list.getFirst();
+        String place;
+        Iterator<String> iterator = list.listIterator(1); // iteration will start from the 2nd item at index 1, to prevent printing "From Kolkata To Kolkata" in first line
+
+        while (iterator.hasNext()) {
+            place=iterator.next();
+            System.out.println("From " + previousPlace + " to " + place);
+            previousPlace = place;
+        }
+
+    }
 }
