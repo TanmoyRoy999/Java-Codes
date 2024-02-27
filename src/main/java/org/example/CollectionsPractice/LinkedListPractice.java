@@ -6,10 +6,13 @@ public class LinkedListPractice {
 
     public static void linkedListPractice() {
 
-        LinkedList<String> deathNote = new LinkedList<>();
-        addElements(deathNote);
-        removeElements(deathNote);
-        getElements(deathNote);
+//        LinkedList<String> deathNote = new LinkedList<>();
+//        addElements(deathNote);
+//        removeElements(deathNote);
+//        getElements(deathNote);
+
+//        itineraryOrderN2();
+        itineraryOrderN();
 
     }
 
@@ -73,7 +76,52 @@ public class LinkedListPractice {
 
     public static void getElements(LinkedList<String> list) {
 
-        list.get(4); // linked will decide whether to traverse from head or tail, and choose the shortest distance to the indexx
+        // list methods
+        System.out.println("Retrieved list element: " + list.get(4)); // linked will decide whether to start traversal from head or tail, whichever is closer to the specified index
+        System.out.println("First list element: " + list.getFirst()); // retrieves first element
+        System.out.println("Last list element: " + list.getLast()); // retrieves last element
+
+        // deque methods
+        System.out.println("Retrieved queue element: " + list.element()); // retrieves first element
+
+        // stack methods
+        System.out.println("Retrieved stack element: " + list.peek()); // retrieves first element
+        System.out.println("First stack element: " + list.peekFirst()); // retrieves first element
+        System.out.println("Last stack element: " + list.peekLast()); // retrieves last element
+
+    }
+
+    public static void itineraryOrderN2() {
+
+        LinkedList<String> list = new LinkedList<>();
+        list.addAll(List.of("Kolkata", "Delhi", "Mumbai", "Bangalore", "Hyderabad", "Chennai"));
+        System.out.println("Places are: " + list);
+
+        for (int i = 1; i < list.size(); i++) {
+            System.out.println("From " + list.get(i - 1) + " to " + list.get(i));
+        }
+        // indexing on linked list is not efficient on time complexity. Check below function for better efficiency.
+
+    }
+
+    public static void itineraryOrderN() {
+
+        LinkedList<String> list = new LinkedList<>();
+        list.addAll(List.of("Kolkata", "Delhi", "Mumbai", "Bangalore", "Hyderabad", "Chennai"));
+        System.out.println("Places are: " + list);
+
+        String previousPlace = list.getFirst();
+        int iterationsDone = 0;
+
+        for (String place : list) {
+
+            if (iterationsDone != 0)
+                System.out.println("From " + previousPlace + " to " + place); // to prevent printing "From Kolkata To Kolkata" in first line
+
+            previousPlace = place;
+            iterationsDone++;
+        }
+        // This is O(N) and better than the previous function with O(N2)
 
     }
 
