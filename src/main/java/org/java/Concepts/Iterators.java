@@ -1,4 +1,4 @@
-package org.java.Collections;
+package org.java.Concepts;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -78,53 +78,5 @@ public class Iterators {
         System.out.println("Place at index 2: " + iterator2.previous());
 
     }
-
-    public static void addNumbersToList() {
-
-        // add numbers to list in ascending order
-        LinkedList<Integer> list = new LinkedList<>();
-        addToList(list, 5);
-        addToList(list, 4);
-        addToList(list, 2);
-        addToList(list, 8);
-        addToList(list, 1);
-
-        System.out.println("List is: "+list);
-
-    }
-
-    public static void addToList(LinkedList<Integer> list, Integer i) {
-
-        if (list.contains(i)) {
-            System.out.println("Number already present!");
-            return;
-        }
-
-        boolean addedFlag = false;
-
-        if (list.isEmpty()) {
-
-            list.add(i);
-            addedFlag = true;
-
-        } else {
-
-            for (int j = 0; j < list.size(); j++) {
-
-                if (i < list.get(j)) {
-                    list.add(j, i);
-                    addedFlag=true;
-                    break;
-                }
-            }
-
-            if (!addedFlag)
-                list.add(i);
-
-        }
-
-
-    }
-
 
 }
