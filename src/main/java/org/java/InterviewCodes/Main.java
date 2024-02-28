@@ -1,6 +1,6 @@
-package org.javacodes.InterviewCodes;
+package org.java.InterviewCodes;
 
-import org.javacodes.Concepts.Iterators;
+import org.java.Collections.Iterators;
 
 public class Main {
 
