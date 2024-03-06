@@ -1,5 +1,7 @@
 package org.java.Collections;
 
+import org.java.POJOs.Person;
+
 import java.util.*;
 
 public class ArrayListPractice {
@@ -82,6 +84,32 @@ public class ArrayListPractice {
         System.out.println("Through iterator:");
         while(iterator.hasNext())
             System.out.println(iterator.next());
+    }
+
+    public static void arrayListPractice2() {
+
+        ArrayList<Person> list1=new ArrayList<>();
+        list1.add(new Person("Tanmoy","27"));
+        list1.add(new Person("Taniya","32"));
+        list1.add(new Person("Sayantan","32"));
+        list1.add(new Person("Subrata","26"));
+        System.out.println("list1: "+list1);
+
+//        ArrayList<Person> list2= (ArrayList<Person>) list1.clone();  // shallow clone
+
+        // deep clone
+        ArrayList<Person> list2=new ArrayList<>(list1.size());
+
+        for (Person person: list1){
+            list2.add(person.clone());
+        }
+
+        System.out.println("list2: "+list2);
+
+        list2.get(1).setName("Annesya");
+        System.out.println("modified list1: "+list1);
+        System.out.println("modified list2: "+list2);
+
     }
 
 }

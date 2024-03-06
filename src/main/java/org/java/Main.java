@@ -1,5 +1,6 @@
-package org.java.InterviewCodes;
+package org.java;
 
+import org.java.Collections.ArrayListPractice;
 import org.java.Concepts.Iterators;
 
 public class Main {
@@ -18,8 +19,9 @@ public class Main {
 //        FirstNonRepeatingCharIndex.firstNonRepeatingCharIndexOrderN2();
 //        FirstNonRepeatingCharIndex.firstNonRepeatingCharIndexOrderNLogN();
 //        ArrayListPractice.arrayListPractice();
+        ArrayListPractice.arrayListPractice2();
 //        LinkedList.linkedListPractice();
-        Iterators.iteratorPractice();
+//        Iterators.iteratorPractice();
 
     }
 
