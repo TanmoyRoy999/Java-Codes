@@ -1,7 +1,6 @@
 package org.java;
 
-import org.java.Collections.ArrayListPractice;
-import org.java.Concepts.Iterators;
+import org.java.Concepts.ComparableComparator.ComparableComparator;
 
 public class Main {
 
@@ -18,10 +17,13 @@ public class Main {
 //        MaxSubarraySum.maxSubarraySumOrderN();
 //        FirstNonRepeatingCharIndex.firstNonRepeatingCharIndexOrderN2();
 //        FirstNonRepeatingCharIndex.firstNonRepeatingCharIndexOrderNLogN();
+//        ArrayPractice.arraySort();
 //        ArrayListPractice.arrayListPractice();
-        ArrayListPractice.arrayListPractice2();
+//        ArrayListPractice.arrayListPractice2();
+//        ArrayListPractice.arrayListSort();
 //        LinkedList.linkedListPractice();
 //        Iterators.iteratorPractice();
+        ComparableComparator.ComparableComparator();
 
     }
 
