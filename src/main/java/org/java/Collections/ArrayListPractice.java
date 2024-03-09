@@ -1,6 +1,6 @@
 package org.java.Collections;
 
-import org.java.POJOs.Person;
+import org.java.Collections.POJOs.Person;
 
 import java.util.*;
 

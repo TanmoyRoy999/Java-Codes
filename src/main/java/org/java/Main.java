@@ -1,6 +1,6 @@
 package org.java;
 
-import org.java.Concepts.ComparableComparator.ComparableComparator;
+import org.java.OtherConcepts.StaticKeyword;
 
 public class Main {
 
@@ -23,7 +23,8 @@ public class Main {
 //        ArrayListPractice.arrayListSort();
 //        LinkedList.linkedListPractice();
 //        Iterators.iteratorPractice();
-        ComparableComparator.ComparableComparator();
+//        ComparableComparator.ComparableComparator();
+         StaticKeyword.staticKeyword();
 
     }
 

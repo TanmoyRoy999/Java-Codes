@@ -1,4 +1,4 @@
-package org.java.Concepts.ComparableComparator;
+package org.java.OtherConcepts.ComparableComparator;
 
 public class Student implements Comparable<Student> {
 

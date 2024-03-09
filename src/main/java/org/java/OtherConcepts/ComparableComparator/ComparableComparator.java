@@ -1,4 +1,4 @@
-package org.java.Concepts.ComparableComparator;
+package org.java.OtherConcepts.ComparableComparator;
 
 import java.util.ArrayList;
 import java.util.List;

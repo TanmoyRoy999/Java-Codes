@@ -1,7 +1,5 @@
 package org.java.Collections;
 
-import org.java.POJOs.Person;
-
 import java.util.*;
 import java.util.stream.Collectors;
 
