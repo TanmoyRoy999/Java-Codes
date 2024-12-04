@@ -56,6 +56,7 @@ public class Iterators {
                  **/
 
 //                list.set(1,"Goa");
+//                iterator.set("Goa"); // this will replace mumbai with goa
 //                iterator.remove(); // this will remove "Mumbai" from list
                 iterator.add("Vizag"); // this will add "Vizag" after "Mumbai"
 

@@ -1,6 +1,6 @@
 package org.java;
 
-import org.java.OtherConcepts.StaticKeyword;
+import org.java.InterviewCodes.CountHighestOccurenceUsingHashmapLambda;
 
 public class Main {
 
@@ -17,6 +17,7 @@ public class Main {
 //        MaxSubarraySum.maxSubarraySumOrderN();
 //        FirstNonRepeatingCharIndex.firstNonRepeatingCharIndexOrderN2();
 //        FirstNonRepeatingCharIndex.firstNonRepeatingCharIndexOrderNLogN();
+        CountHighestOccurenceUsingHashmapLambda.countHighestOccurenceUsingHashmapLambda();
 //        ArrayPractice.arraySort();
 //        ArrayListPractice.arrayListPractice();
 //        ArrayListPractice.arrayListPractice2();
@@ -24,7 +25,7 @@ public class Main {
 //        LinkedList.linkedListPractice();
 //        Iterators.iteratorPractice();
 //        ComparableComparator.ComparableComparator();
-         StaticKeyword.staticKeyword();
+//         StaticKeyword.staticKeyword();
 
     }
 

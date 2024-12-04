@@ -1,6 +1,7 @@
 package org.java.OtherConcepts.ComparableComparator;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class ComparableComparator {
@@ -20,10 +21,10 @@ public class ComparableComparator {
 //        students.sort(Comparator.reverseOrder());
 //        System.out.println("Sorted list using comparable: "+students);
 
-//        Collections.sort(students, StudentAgeComparator.instanceOf());
-//        Collections.sort(students, StudentAgeComparator.instanceOf().reversed()); // reverse of current comparator logic
+        Collections.sort(students, StudentAgeComparator.instanceOf());
+        Collections.sort(students, StudentAgeComparator.instanceOf().reversed()); // reverse of current comparator logic
 //        students.sort(StudentAgeComparator.instanceOf());
-        students.sort(StudentAgeComparator.instanceOf().reversed());
+//        students.sort(StudentAgeComparator.instanceOf().reversed());
 //        Collections.sort(students, StudentNameComparator.instanceOf());
         System.out.println("Sorted list using comparator: " + students);
 

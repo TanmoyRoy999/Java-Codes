@@ -9,7 +9,7 @@ public class ArrayListPractice {
     public static void arrayListPractice() {
 
 //        List<String> strList = new ArrayList<>();
-        List<String> strList = new ArrayList<>(Arrays.asList(new String[]{"Ryuk", "Rem"}));
+        ArrayList<String> strList = new ArrayList<>(Arrays.asList(new String[]{"Ryuk", "Rem"}));
 
         // add
         strList.add("Tanmoy");
