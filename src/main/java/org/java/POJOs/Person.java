@@ -1,4 +1,4 @@
-package org.java.Collections.POJOs;
+package org.java.POJOs;
 
 public class Person{
 

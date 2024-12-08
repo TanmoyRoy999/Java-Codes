@@ -1,6 +1,7 @@
 package org.java;
 
 import org.java.InterviewCodes.CountHighestOccurenceUsingHashmapLambda;
+import org.java.OtherConcepts.InnerClass;
 
 public class Main {
 
@@ -17,7 +18,7 @@ public class Main {
 //        MaxSubarraySum.maxSubarraySumOrderN();
 //        FirstNonRepeatingCharIndex.firstNonRepeatingCharIndexOrderN2();
 //        FirstNonRepeatingCharIndex.firstNonRepeatingCharIndexOrderNLogN();
-        CountHighestOccurenceUsingHashmapLambda.countHighestOccurenceUsingHashmapLambda();
+//        CountHighestOccurenceUsingHashmapLambda.countHighestOccurenceUsingHashmapLambda();
 //        ArrayPractice.arraySort();
 //        ArrayListPractice.arrayListPractice();
 //        ArrayListPractice.arrayListPractice2();
@@ -26,6 +27,7 @@ public class Main {
 //        Iterators.iteratorPractice();
 //        ComparableComparator.ComparableComparator();
 //         StaticKeyword.staticKeyword();
+        new InnerClass().innerClass();
 
     }
 
