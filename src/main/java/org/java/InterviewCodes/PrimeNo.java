@@ -13,17 +13,17 @@ public class PrimeNo {
 
         if(num<=1) {
             System.out.println("Not prime..");
-            System.exit(0);
+            return;
         }
 
         if (num%2==0) {
-            System.out.println("Prime..");
-            System.exit(0);
+            System.out.println("Not prime..");
+            return;
         }
 
         boolean isPrime=true;
 
-        for (int i=2;i<Math.sqrt(num);i++){
+        for (int i=2;i<=Math.sqrt(num);i++){
             if(num%i==0) {
                 isPrime = false;
                 break;

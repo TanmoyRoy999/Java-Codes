@@ -13,7 +13,7 @@ public class FirstNonRepeatingCharIndex {
      *  If the input string does not have non repeating character, the function should return -1
      *
      *  Example:
-     *  Input: abcdcaf
+         *  Input: abcdcaf
      *  Output: 1
      */
 
@@ -48,9 +48,9 @@ public class FirstNonRepeatingCharIndex {
 
     }
 
-    public static void firstNonRepeatingCharIndexOrderNLogN() {
+    public static void firstNonRepeatingCharIndexOrderN() {
 
-        String inputStr="abcdd";
+        String inputStr="aacbcdd";
 
         Map<Character, Integer> countMap=new LinkedHashMap<>();
 
@@ -59,7 +59,7 @@ public class FirstNonRepeatingCharIndex {
             char c=inputStr.charAt(i);
 
             if (countMap.containsKey(c))
-                countMap.put(c, countMap.get(c)+1);        // O(logn)
+                countMap.put(c, countMap.get(c)+1);        // O(1)
             else
                 countMap.put(c,1);
         }

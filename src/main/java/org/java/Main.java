@@ -1,23 +1,23 @@
 package org.java;
 
-import org.java.InterviewCodes.CountHighestOccurenceOfElementInArray;
-import org.java.InterviewCodes.RemoveDuplicatesInArray;
+import org.java.InterviewCodes.*;
 
 public class Main {
 
     public static void main(String[] args) {
 
-//        ReverseString.reverseString();
+//        ReverseString.reverseString2();
 //        Swap2NosUsing3rdVariable.swap2NosUsing3rdVariable();
 //        Swap2NosWithout3rdVariable.swap2NosWithout3rdVariable();
-//        PrimeNo.primeNo();
-//        Fibonacci.fibonacci();
+        PrimeNo.primeNo();
+//        Fibonacci.fibonacciUsingRecursion();
+//        Factorial.factorialUsingRecursion();
 //        DuplicateCharsInString.duplicateCharsInStringOrderN();
 //        MaxSubarraySum.maxSubarraySumOrderN3();
 //        MaxSubarraySum.maxSubarraySumOrderN2();
 //        MaxSubarraySum.maxSubarraySumOrderN();
 //        FirstNonRepeatingCharIndex.firstNonRepeatingCharIndexOrderN2();
-//        FirstNonRepeatingCharIndex.firstNonRepeatingCharIndexOrderNLogN();
+//        FirstNonRepeatingCharIndex.firstNonRepeatingCharIndexOrderN();
 //        CountHighestOccurenceOfElementInArray.countHighestOccurenceUsingHashmapLambdaOrderN();
 //        CountHighestOccurenceOfElementInArray.countHighestOccurenceUsingFrequencyArray();
 //        ArrayPractice.arraySort();
@@ -29,7 +29,7 @@ public class Main {
 //        ComparableComparator.ComparableComparator();
 //         StaticKeyword.staticKeyword();
 //        new InnerClass().innerClass();
-        RemoveDuplicatesInArray.removeDuplicatesUsingFrequencyArrayOrderN();
+//        RemoveDuplicatesInArray.removeDuplicatesUsingFrequencyArrayOrderN();
 
     }
 
