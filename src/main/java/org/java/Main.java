@@ -1,5 +1,6 @@
 package org.java;
 
+import org.java.DesignPatterns.DesignPatterns;
 import org.java.InterviewCodes.*;
 
 public class Main {
@@ -9,7 +10,7 @@ public class Main {
 //        ReverseString.reverseString2();
 //        Swap2NosUsing3rdVariable.swap2NosUsing3rdVariable();
 //        Swap2NosWithout3rdVariable.swap2NosWithout3rdVariable();
-        PrimeNo.primeNo();
+//        PrimeNo.primeNo();
 //        Fibonacci.fibonacciUsingRecursion();
 //        Factorial.factorialUsingRecursion();
 //        DuplicateCharsInString.duplicateCharsInStringOrderN();
@@ -30,6 +31,7 @@ public class Main {
 //         StaticKeyword.staticKeyword();
 //        new InnerClass().innerClass();
 //        RemoveDuplicatesInArray.removeDuplicatesUsingFrequencyArrayOrderN();
+        DesignPatterns.designPatterns();
 
     }
 
